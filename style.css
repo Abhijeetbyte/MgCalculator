@@ -1,7 +1,7 @@
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html, body {
@@ -11,14 +11,14 @@ html, body {
     font-size: 16px;
     font-family: Arial, Verdana, Helvetica, sans-serif;
     border-style: none;
-    min-height: 100%
+    min-height: 100%;
 }
 body {
-    line-height: unset !important
+    line-height: unset !important;
 }
 
 input {
-    font-size: 1em
+    font-size: 1em;
 }
 
 @media only screen and (max-width:799px) {
@@ -36,24 +36,29 @@ input {
     }
 }
 .btn{
+    font-size: 1.2em;
     border-radius: 7px;
     margin-right : 10px;
     border: 1px rgb(224, 224, 224) solid;
 }
 
-.calc {
+.calc{
     border-spacing: 0;
     border-collapse: separate;
     background: #fcfcfc;
     border: 1px rgb(224, 224, 224) solid;
-    border-radius: 10px;
-    padding: 15px;
-    font-size: 16px;
+    border-radius: 1em;
+    padding: 1.2em;
+    font-size: 1.3em;
     font-family: Arial, Verdana, Helvetica, sans-serif;
 
 }
+.intextlabel{
+    font-size: 1em;
+}
+
 .abt{
-    font-size: 14px;
+    font-size: 1.2em;
     word-spacing: 3px;
     padding: 7px  20px;
     color: rgb(252, 252, 252);
@@ -66,7 +71,7 @@ input {
 }
 
 .fdback{
-    font-size: 14px;
+    font-size:  1.2em;
     word-spacing: 2px;
     padding: 7px;
     color: rgb(252, 252, 252);
@@ -87,7 +92,7 @@ footer{
     
 }
 .footer-bottom p{
-    font-size: 13px;
+    font-size: 1.2em;
     word-spacing: 2px;
     text-transform: capitalize;
 }
