@@ -8,7 +8,6 @@ html, body {
     margin: 0;
     padding: 0;
     color: #222;
-    font-size: 16px;
     font-family: Arial, Verdana, Helvetica, sans-serif;
     border-style: none;
     min-height: 100%;
@@ -49,12 +48,12 @@ input {
     border: 1px rgb(224, 224, 224) solid;
     border-radius: 1em;
     padding: 1.2em;
-    font-size: 1.3em;
+    font-size: 0.8em;
     font-family: Arial, Verdana, Helvetica, sans-serif;
 
 }
 .intextlabel{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .abt{
@@ -92,7 +91,8 @@ footer{
     
 }
 .footer-bottom p{
-    font-size: 1.2em;
+    
+    font-size: 0.8em;
     word-spacing: 2px;
     text-transform: capitalize;
 }
